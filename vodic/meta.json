@@ -1,0 +1,49 @@
+{
+  "info": {
+    "id": "capone",
+    "guideKey": "cp-guide-done",
+    "storageKey": "capone-food",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 17,
+    "name": "Capone Food",
+    "address": "Kumodraška 100, Beograd",
+    "phone": "069 777 627",
+    "hours": "Svaki dan 09:00 – 04:00",
+    "instagram": "https://www.instagram.com/capone.food/",
+    "logo": "logo.png",
+    "deliveryFee": 300,
+    "cardPayment": [
+      "delivery"
+    ],
+    "locations": 0,
+    "categories": 13,
+    "menu": "static",
+    "menuItems": 80,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "capone",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#EDE8DE",
+    "card": "#FBF8F2",
+    "inset": "#E3DCCE",
+    "line": "#D3C9B6",
+    "primary": "#181612",
+    "onPrimary": "#EDE8DE",
+    "dark": "#181612",
+    "dark2": "#211E19",
+    "cta": "#A0071C",
+    "ink": "#1C1915",
+    "ink2": "#585145",
+    "font": "\"Tanker\", \"Arial Narrow\", Impact, sans-serif",
+    "tracking": "0.01em",
+    "case": "uppercase",
+    "weight": "400",
+    "scale": "0.9"
+  }
+}

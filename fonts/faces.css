@@ -1,0 +1,9 @@
+/* self-hosted display font: Tanker (Indian Type Foundry, ITF Free Font License), the same woff2 caponefood.rs serves —
+   one file, Latin incl. Č Ć Š Ž Đ; %BASE is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Tanker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(%BASEfonts/tanker-400.woff2) format('woff2');
+}

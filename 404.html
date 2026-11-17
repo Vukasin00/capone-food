@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="sr" data-tenant="capone">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Poruči picu, pastu, sendvič ili palačinku iz Capone Food-a — Kumodraška 100, Voždovac, svaki dan do 4 ujutru. Dostava ili preuzimanje." />
+    <meta name="theme-color" content="#EDE8DE" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Capone" />
+    <link rel="icon" href="/capone-food/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/capone-food/apple-touch-icon.png" />
+    <title>Capone Food · Pica, paste i sendviči, Voždovac</title>
+    <style>
+      /* Splash painted before the JS bundle arrives (slow networks): brand colour + name, replaced by React. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: var(--color-cream-100, #fff); }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-forest-800, #222); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="capone"] {
+  --color-cream-50: #FBF8F2;
+  --color-cream-100: #EDE8DE;
+  --color-cream-200: #E3DCCE;
+  --color-cream-300: #D3C9B6;
+  --color-cream-400: #B4A992;
+  --color-azure-100: #E4DCCD;
+  --color-azure-200: #2C2822;
+  --color-azure-300: #181612;
+  --color-azure-400: #0B0A08;
+  --color-on-primary: #EDE8DE;
+  --color-forest-950: #0B0A08;
+  --color-forest-900: #181612;
+  --color-forest-800: #211E19;
+  --color-forest-700: #2F2B25;
+  --color-forest-600: #4A443B;
+  --color-forest-500: #6B6457;
+  --color-forest-400: #8C8475;
+  --color-flame-100: #F5DADC;
+  --color-flame-200: #E3A1A8;
+  --color-flame-500: #A0071C;
+  --color-flame-600: #8A0618;
+  --color-flame-700: #6E0413;
+  --color-tomato-500: #C8381E;
+  --color-tomato-100: #F7DFD8;
+  --color-basil-500: #2E7D1A;
+  --color-basil-100: #E0EED8;
+  --color-ink: #1C1915;
+  --color-ink-2: #585145;
+  --color-ink-3: #877F71;
+  --font-display: "Tanker", "Arial Narrow", Impact, sans-serif;
+  --display-scale: 0.9;
+  --display-tracking: 0.01em;
+  --display-case: uppercase;
+  --display-weight: 400;
+  --motif: repeating-linear-gradient(90deg, rgba(24, 22, 18, 0.09) 0 1px, transparent 1px 12px), linear-gradient(#E6DFD1, #E6DFD1);
+  --glass-bg: rgba(237, 232, 222, 0.82);
+ }
+/* self-hosted display font: Tanker (Indian Type Foundry, ITF Free Font License), the same woff2 caponefood.rs serves —
+   one file, Latin incl. Č Ć Š Ž Đ; /capone-food/ is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Tanker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/capone-food/fonts/tanker-400.woff2) format('woff2');
+}
+</style>
+    <link rel="preload" as="image" href="/capone-food/pizzas/capricciosa.webp" />
+    <link rel="preload" as="image" href="/capone-food/logo.png" />
+    <script type="module" crossorigin src="/capone-food/assets/main-BaqWhvVB.js"></script>
+    <link rel="stylesheet" crossorigin href="/capone-food/assets/main-8aLNoPGg.css">
+  <link rel="manifest" href="/capone-food/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/capone-food/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">Capone</span><span class="splash-sub">Učitavanje</span></div></div>
+  </body>
+</html>
